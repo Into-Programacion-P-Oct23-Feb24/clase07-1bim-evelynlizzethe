@@ -26,6 +26,8 @@ public class Ejemplo03 {
         int suma = 0;
         int valor_ingresado;
         
+        // Nos permite realizar una suma de valores ingresados por teclado
+        
         while (contador <= limite) { 
             System.out.println("Ingrese el valor a sumar");
             valor_ingresado = entrada.nextInt();
